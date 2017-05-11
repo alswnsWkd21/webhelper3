@@ -1,0 +1,17 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  model_id: 1
+  board_id: 1
+  comment_id: 1
+  workname: MyString
+  progress: 1
+  userpart: MyText
+
+two:
+  model_id: 1
+  board_id: 1
+  comment_id: 1
+  workname: MyString
+  progress: 1
+  userpart: MyText

@@ -1,0 +1,13 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  career: MyText
+  main: MyText
+  addition: MyText
+  model_id: 1
+
+two:
+  career: MyText
+  main: MyText
+  addition: MyText
+  model_id: 1

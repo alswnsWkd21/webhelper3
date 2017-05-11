@@ -1,0 +1,29 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <strong>Model:</strong>
+  <%= @board.model_id %>
+</p>
+
+<p>
+  <strong>Title:</strong>
+  <%= @board.title %>
+</p>
+
+<p>
+  <strong>Content:</strong>
+  <%= @board.content %>
+</p>
+
+<p>
+  <strong>Deadline:</strong>
+  <%= @board.deadline %>
+</p>
+
+<p>
+  <strong>Image:</strong>
+  <%= @board.image %>
+</p>
+
+<%= link_to 'Edit', edit_board_path(@board) %> |
+<%= link_to 'Back', boards_path %>
