@@ -18,7 +18,7 @@ ActiveRecord::Schema.define(version: 20170511062653) do
     t.string   "title"
     t.text     "content"
     t.datetime "deadline"
-    t.string   "image"
+    t.string   "photo"
     t.datetime "created_at", null: false
     t.datetime "updated_at", null: false
   end

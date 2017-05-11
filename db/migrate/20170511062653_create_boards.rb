@@ -5,7 +5,7 @@ class CreateBoards < ActiveRecord::Migration
       t.string :title
       t.text :content
       t.datetime :deadline
-      t.string :image
+      t.string :photo
 
       t.timestamps null: false
     end
