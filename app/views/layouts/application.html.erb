@@ -3,12 +3,14 @@
 <head>
   <meta charset="utf-8">
   <link type="text/css" rel="stylesheet" href="./assets/css/style.css">
+  
   <title>Workspace</title>
   <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track' => true %>
   <%= javascript_include_tag 'application', 'data-turbolinks-track' => true %>
   <%= csrf_meta_tags %>
 </head>
 <body>
+   <%= link_to root_path do%>
      <section id="main-section">
      <nav class="navigation">
       <h1 class="Service-name">Paper</h1>
@@ -24,13 +26,13 @@
           <li class="category"><a href="/models/sign_in">Sign-in</a></li>
           <li class="category"><a href="/models/sign_up">Sign-up</a></li>
           <li class="category"><a href="/models/sign_out">Sign-out</a></a></li>
-          <li class="category"><img src="./assets/images/search_icon_white.png" alt="검색"></li>
+          <li class="category"><img src="<%= image_url 'search_icon_white.png'%>" alt="검색"></li>
         </ul>
       </div>
     </nav>
       </section>
     
 <%= yield %>
-
+<% end %>
 </body>
 </html>

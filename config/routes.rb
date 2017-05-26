@@ -1,16 +1,24 @@
 Rails.application.routes.draw do
-  resources :boards
+  get 'boards/new'
+
+  get 'boards/create'
+
+  get 'boards/allread'
+
+  get 'boards/read'
+
+  get 'boards/edit'
+
+  get 'boards/update'
+
+  get 'boards/delete'
+
   devise_for :models
   root "helper#index"
   get 'helper/index'
 
   get 'helper/sign_up'
 
-  get 'board/add'
-
-  get 'board/list'
-
-  get 'board/show'
 
   
   # The priority is based upon order of creation: first created -> highest priority.
